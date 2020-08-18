@@ -7,7 +7,7 @@ function About() {
     <h2>About Me</h2>
     <section class="row">
       <div class="col-md-4">
-        <img src="assets/about-me.jpg" class="img-fluid profile-pic" alt="Profile picture - Lemur"/>
+        <img src="assets/about-me.jpg" class="img-fluid profile-pic" alt="Profile"/>
       </div>
       <div class="col-md-8">
         <h4>My Bio</h4>
