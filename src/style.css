@@ -1,0 +1,44 @@
+body
+{
+    background-color: #a6aeb7;
+    margin-bottom:100px;
+}
+
+footer
+{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    padding:20px 0 20px 0;
+    text-align: center;
+    background-color: #21252940;
+
+}
+#footer-text{
+    color:#f2f3f480;
+}
+
+
+.profile-pic{
+    border:1px solid #212529;
+    margin: 5px 0 5px 0;
+}
+
+.card{
+    margin-bottom:20px;
+    border:1px solid black;
+    box-shadow: 2px 2px 0px 0px #444;
+
+}
+.card img{border-bottom:1px solid #212529; }
+
+.visit{
+    text-align: center;
+    margin:0;
+}
+.logo{
+    height:32px;
+}
+a:hover{
+    text-decoration:none;
+}
