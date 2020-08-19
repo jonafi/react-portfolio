@@ -3,7 +3,8 @@ import React from "react";
 function Project(props) {
 
   let projects = props.project.map((site) =>
-    <div>
+  // <section className={site.id===2?"row":""}>
+    <div >
       {site.id}<br />
       {site.name}<br />
       {site.url}<br />
@@ -11,7 +12,9 @@ function Project(props) {
       {site.description}<br />
       {site.repository}<br />
       <hr/>
-    </div>);
+    </div>
+    // </section>
+    );
 
 
 
