@@ -15,10 +15,10 @@ function About() {
           I'm back in the U.S. now, and I've survived my first Minnesota winter. I'm currently enrolled in the University of Minnesota coding bootcamp to bring my skills up-to-date.
 
         </p>
-   <a href="assets/John-Ferro_Resume.pdf" class="btn btn-outline-secondary">Resume</a>
-   <a href="assets/Brand-Statement.pdf" class="btn btn-outline-secondary">Brand Statement</a>
-   <a href="portfolio.html" class="btn btn-outline-secondary">Portfolio</a>
-   <a href="contact.html" class="btn btn-outline-secondary">Contact</a>
+   <a href="assets/John-Ferro_Resume.pdf" class="btn btn-outline-secondary">Resume</a>&nbsp;
+   <a href="assets/Brand-Statement.pdf" class="btn btn-outline-secondary">Brand Statement</a>&nbsp;
+   <a href="portfolio.html" class="btn btn-outline-secondary">Portfolio</a>&nbsp;
+   <a href="contact.html" class="btn btn-outline-secondary">Contact</a>&nbsp;
 
       </div>
     </section>
