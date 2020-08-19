@@ -5,15 +5,27 @@ import Project from "../components/Project"
 const collection = [
   {
     id: 1,
-    name: "Website 1",
+    name: "Eat-Da-Burger",
     url: "http://asdg.com",
-    thumbnail: "/assets/asdf.jpg"
+    thumbnail: "/assets/burger.jpg",
+    description: "Heroku hosted app that utilizes a MySql database, Node Express routes, and MVC framework.",
+    repository:"http://asdf.com"
   },
   {
     id: 2,
-    name: "Webstie 2",
-    url: "https://zxcv.com",
-    thumbnail: "/assets/asdf.jpg"
+    name: "Eat-Da-Burger",
+    url: "http://asdg.com",
+    thumbnail: "/assets/cq.jpg",
+    description: "Heroku hosted app that utilizes a MySql database, Node Express routes, and MVC framework.",
+    repository:"http://asdf.com"
+  },
+  {
+    id: 3,
+    name: "Eat-Da-Burger",
+    url: "http://asdg.com",
+    thumbnail: "/assets/qe.jpg",
+    description: "Heroku hosted app that utilizes a MySql database, Node Express routes, and MVC framework.",
+    repository:"http://asdf.com"
   },
   
 ];

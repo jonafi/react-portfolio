@@ -2,7 +2,16 @@ import React from "react";
 
 function Project(props) {
 
-  let projects = props.project.map((site) => <div>{site.url}</div>);
+  let projects = props.project.map((site) =>
+    <div>
+      {site.id}<br />
+      {site.name}<br />
+      {site.url}<br />
+      <img className="card-img-top" src={site.thumbnail} alt={site.name}/>
+      {site.description}<br />
+      {site.repository}<br />
+      <hr/>
+    </div>);
 
 
 
@@ -11,12 +20,15 @@ function Project(props) {
     <main className="container">
       <article>
         <h1>Portfolio</h1>
+           <div className="col-md-6">
+           <div className="card">
+            {projects}
+        </div>
+        </div>
+       
       </article>
-      {projects}
     </main>
-    // {projects}
-
-    // <main className="container">
+     // <main className="container">
     //     <article>
     //         <h1>Portfolio</h1>
     //         <section className="row">
