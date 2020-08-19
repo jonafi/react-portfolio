@@ -27,9 +27,9 @@ function Contact() {
             <hr />
           </div>
           <div class="col-md-6">
-            <p><a href="https://www.linkedin.com/in/johnferro/"><img src="assets/linkedin.svg" class="logo"/> LinkedIn</a></p>
+            <p><a href="https://www.linkedin.com/in/johnferro/"><img src="assets/linkedin.svg" class="logo" alt="LinkedIn Logo"/> LinkedIn</a></p>
               <hr />
-              <p><a href="https://www.github.com/jonafi/"><img src="assets/github.png" class="logo"/> GitHub</a></p>
+              <p><a href="https://www.github.com/jonafi/"><img src="assets/github.png" class="logo" alt="GitHub Logo"/> GitHub</a></p>
                 <hr />
             </div>
         </section>
