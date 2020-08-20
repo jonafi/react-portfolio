@@ -46,15 +46,15 @@ const collection = [
   {
     id: 6,
     name: "Employee CMS",
-    url: "https://jonafi.github.io/employee-cms",
+    url: "",
     thumbnail: "/assets/ecms.jpg",
     description: "Command line interface, uses MySQL and Inquirer",
     repository:"https://github.com/jonafi/employee-cms"
   },
   {
     id: 7,
-    name: "Quarantine Eats",
-    url: "https://github.com/jonafi",
+    name: "GitHub",
+    url: "",
     thumbnail: "/assets/github.jpg",
     description: "See all of my works-in-progress.",
     repository:"https://github.com/jonafi"

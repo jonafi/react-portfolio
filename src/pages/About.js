@@ -17,8 +17,8 @@ function About() {
         </p>
    <a href="assets/John-Ferro_Resume.pdf" class="btn btn-outline-secondary">Resume</a>&nbsp;
    <a href="assets/Brand-Statement.pdf" class="btn btn-outline-secondary">Brand Statement</a>&nbsp;
-   <a href="portfolio.html" class="btn btn-outline-secondary">Portfolio</a>&nbsp;
-   <a href="contact.html" class="btn btn-outline-secondary">Contact</a>&nbsp;
+   <a href="/portfolio" class="btn btn-outline-secondary">Portfolio</a>&nbsp;
+   <a href="/contact" class="btn btn-outline-secondary">Contact</a>&nbsp;
 
       </div>
     </section>

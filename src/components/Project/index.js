@@ -2,22 +2,24 @@ import React from "react";
 
 function Project(props) {
   let projects = props.project.map((site) =>
-    // <section className={site.id===1 ? "row" : ""}>
-    <div className="col-md-6">
+  // Ran out of time to implement ROW functionality using bootstrap react
+     <div className="col-md-6">
       <div className="card">
-        {/* {site.id}<br /> */}
-        <h5 className="card-title"> {site.name}</h5>
         <a href={site.url}>
           <img className="card-img-top" src={site.thumbnail} alt={site.name} />
         </a>
-        <p className="card-text">{site.description}</p>
-        <p className="visit">
-          <a href={site.url} className="btn btn-dark">Website</a>
+        <div className="card-body">
+          <h5 className="card-title"> {site.name}</h5>
+          <p className="card-text">{site.description}</p>
+          <p className="visit">
+            {site.url !== "" ? <a href={site.url} className="btn btn-dark">Website</a> : ""}
+          &nbsp;
           <a href={site.repository} className="btn btn-dark">Code Repository</a>
-        </p>
+          </p>
+        </div>
       </div>
     </div>
-    //  </section>
+    
   );
 
   return (
@@ -27,7 +29,7 @@ function Project(props) {
         {projects}
       </article>
     </main>
-   
+
   );
 }
 
